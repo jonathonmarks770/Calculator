@@ -1,0 +1,62 @@
+
+
+body{
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    border: 2 px solid black;
+    
+    
+}
+
+.buttons,.display{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 100%;
+    
+}
+
+.display{
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 48px;
+    padding: 0 10px;
+}
+
+.output p{
+    font-size: 2rem;
+    color: #ccc;
+    
+}
+
+.btn{
+    flex: 0 1 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 32px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.operator{
+    background-color: orange;
+}
+
+.zero{
+    flex: 0 1 50%;
+    display: flex;
+}
